@@ -138,7 +138,11 @@ img {
   image-rendering: pixelated;
   
 }
-
+img {
+  width:600px;
+  height:450px;
+  border-radius:5%;
+  {
 .image container a {
   width: 100%;
 }
