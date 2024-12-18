@@ -139,11 +139,11 @@ img {
   
 }
 
-.image container {
+.image container a {
   width: 100%;
 }
 
-.img-container {
+.image container {
   display: flex;
   justify-content: center;
   align-items: center;
