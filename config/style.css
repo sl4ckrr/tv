@@ -79,7 +79,7 @@ main {
   margin-top: 4rem;
   width: 90%;
 }
-main#main.noscroll {
+main#main.scroll {
   justify-content: center;
 }
 h1,
@@ -136,9 +136,10 @@ img {
   user-select: none;
   filter: drop-shadow(var(--shadow));
   image-rendering: pixelated;
+  
 }
 
-.img-container a {
+.image container {
   width: 100%;
 }
 
