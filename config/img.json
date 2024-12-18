@@ -1,0 +1,14 @@
+[
+
+      {
+    "name": "hello",
+    "image": "cover.png",
+    "directory": "img",
+    "recommended": "1"
+  },
+  {
+    "name": "lol",
+    "directory": "img",
+    "image": "img.png"
+  }
+]
