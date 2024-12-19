@@ -12,7 +12,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: var(--clr);
+  background: var(--bg);
   color: var(--textcolor);
   background-position: center;
   background-repeat: no-repeat;
@@ -284,13 +284,13 @@ label {
   margin: 0 1px
   cursor: pointer;
   border: 2px solid #FFF; }
-.clr1{
+.clr1 {
 background-color: #fff7eb; }  
-.clr2{
+.clr2 {
 background-color: #242424; }  
-.clr3{
+.clr3 {
 background-color: #d2ffdd; } 
-.clr4{
+.clr4 {
 background-color: #d1cbfd; }  
 
 
