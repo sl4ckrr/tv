@@ -4,6 +4,12 @@
   font-family: 'poppins', sans-sefif;
   boxing-sizing: border-box;
 }
+.content{
+    flex-direction: column;
+    align-items: left;
+    padding: 6vw;
+    padding-top: 0vw;
+}
 .container{
   width:100%;
   height:100%;
