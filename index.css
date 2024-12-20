@@ -9,6 +9,11 @@
     align-items: left;
     padding: 6vw;
     padding-top: 0vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: .6vw;
+    padding-bottom: 5vw;
 }
 .container{
   width:100%;
@@ -18,6 +23,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  
 }
 .content hr{
     border: 0;
@@ -45,17 +51,15 @@ nav.circle{
   color: #f53192;
   box-shadow: 0 5px 10px rbga(255, 26, 26 ,0.22);
 }
-.anime-img{
-  width: 220px;
-  border-radius: 5%;
-  border: 8px solid #fff;
-  box-shadow: 0 10px 60px rbga(255, 26, 26 ,0.22);
-}
 .video-player h1{
   font-size: 14px;
   font-weight: 400;
   color: #333;
   margin-top: 20px;
+}
+
+#games img:hover{
+    transform: scale(1.01);
 }
 .search {
     display: flex;
