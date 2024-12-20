@@ -45,6 +45,45 @@ nav.circle{
   color: #333;
   margin-top: 20px;
 }
+.search {
+    display: flex;
+    user-select: none;
+    margin-top: 2.5vw;
+    margin-left: 60vw;
+}
+
+.search input {
+    background-color: #222222;
+    border: none;
+    border-radius: 1vw 0 0 1vw;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding: 0.8vw 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    outline: none;
+}
+
+.search input::placeholder {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.search button {
+    background-color: #fff;
+    border: none;
+    border-radius: 0 1vw 1vw 0;
+    color:#222222;
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding: 1.5vw 1vw;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    transition: .3s all ease;
+}
 .video-player p{
   font-size:14px;
   color: #333;
