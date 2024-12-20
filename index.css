@@ -19,7 +19,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-.content hr {
+.content hr{
     border: 0;
     height: 4px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
