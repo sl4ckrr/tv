@@ -6,7 +6,7 @@ watch anime and write comments or listen to music and stuff.
 - hxh
 - mob physco 100
 - deathnote
-- evongalion
+- evangelion
 - this art club has a problem!
 
 # music
