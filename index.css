@@ -10,10 +10,6 @@
     padding: 6vw;
     padding-top: 0vw;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: .6vw;
-    padding-bottom: 5vw;
 }
 .container{
   width:100%;
