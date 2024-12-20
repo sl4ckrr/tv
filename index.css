@@ -19,6 +19,12 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+.content hr {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    margin: 1vw 0;
+}
 .video-player{
   background: #ffe0e5;
   width: 100%;
