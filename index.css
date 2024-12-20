@@ -38,5 +38,14 @@ nav.circle{
   border-radius: 5%;
   border: 8px solid #fff;
   box-shadow: 0 10px 60px rbga(255, 26, 26 ,0.22);
- 
+}
+.video-player h1{
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  margin-top: 20px;
+}
+.video-player p{
+  font-size:14px;
+  color: #333;
 }
