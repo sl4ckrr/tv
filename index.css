@@ -4,25 +4,12 @@
   font-family: 'poppins', sans-sefif;
   box-sizing: border-box;
 }
-.content{
-    flex-direction: column;
-    align-items: left;
-    padding: 6vw;
-    padding-top: 0vw;
-    display: flex;
-}
 .container{
   width:100%;
   height:100%;
   background: #333;
   display: flex;
   align-items: center;  
-}
-.content hr{
-    border: 0;
-    height: 4px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
-    margin: 1vw 0;
 }
 .video-player{
   background: #ffe0e5;
@@ -51,7 +38,7 @@ nav.circle{
   margin-top: 20px;
 }
 
-#games img:hover{
+#animes img:hover{
     transform: scale(1.01);
 }
 .search {
