@@ -108,6 +108,9 @@ nav .img{
   border: 8px solid #fff;
   box-shadow: 0 10px 60px rbga(255, 26, 26 ,0.22);
 }
+#animes img:hover {
+    transform: scale(1.01);
+}
 .video-player{
   font-size: 20px;
   font-weight: 400;
@@ -120,4 +123,10 @@ nav .img{
 }
 a{
   font-weight:500;
+}
+hr{
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    margin: 1vw 0;
 }
