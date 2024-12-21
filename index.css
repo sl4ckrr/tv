@@ -6,7 +6,7 @@
 }
 .container{
   width:100vw;
-  height:100vh;
+  height:100%;
   background: #333;
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@ position: absolute;
   color: #555;
   cursor: pointer;
 }
-#animes {
+#animes{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,7 +44,7 @@ position: absolute;
 
 }
 
-#animes img { 
+#animes img{ 
   width: 220px;
   border-radius: 5%;
   border: 8px solid #fff;
@@ -54,7 +54,7 @@ position: absolute;
   transition: transform .2s;
 }
 
-#animes img:hover {
+#animes img:hover{
     transform: scale(1.01);
 }
 .video-player{
