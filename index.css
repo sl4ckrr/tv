@@ -63,7 +63,7 @@ position: absolute;
 
 #animes img{ 
   width: 220px;
-  height:370px;
+  height:350px;
   border-radius: 5%;
   border: 8px solid #fff;
   box-shadow: 0 10px 60px rbga(255, 26, 26 ,0.22);
@@ -101,7 +101,7 @@ nav .img{
 }
 .anime-img{
   width: 220px;
-  height:370px;
+  height:350px;
   border-radius: 5%;
   border: 8px solid #fff;
   box-shadow: 0 10px 60px rbga(255, 26, 26 ,0.22);
