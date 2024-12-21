@@ -27,6 +27,23 @@
   border:none;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+.search input::placeholder {
+    color: #333;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+.search button{
+    border: none;
+    border-radius: 0 1vw 1vw 0;
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding: 1.5vw 1vw;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    transition: .3s all ease;
+}
 .search-container i{
 position: absolute;
   top: 50%;
