@@ -1,5 +1,5 @@
 const input = document.querySelector('input');
-const games = document.querySelectorAll('#games img');
+const games = document.querySelectorAll('#anime-img');
 
 input.addEventListener('input', () => {
   const searchTerm = input.value.toLowerCase();
