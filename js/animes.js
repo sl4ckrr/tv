@@ -1,4 +1,4 @@
-$.getJSON("/animes.json", function (data) {
+$.getJSON("/games.json", function (data) {
 	if (document.readyState === "complete") {
 		loadGames(data);
 	} else {
@@ -19,14 +19,14 @@ function loadGames(data) {
 		starredgames = JSON.parse(starredgames);
 	}
 	$("#gamesearch").prop({
-		placeholder: "Click here to search through our " + data.length + " animes!",
+		placeholder: "Click here to search through our " + data.length + " games!",
 	});
 	data.sort(dynamicSort("name"));
 	gamelist = data;
 	for (let i = 0; i < data.length; i++) {
 		let $element = $("<div>")
 			.attr({
-				class: "anime",
+				class: "game",
 				id: data[i].directory,
 				recommended: data[i].recommended,
 			})
@@ -77,7 +77,7 @@ function loadGames(data) {
 
 	// starred games
 	let starred;
-	$(document).on("click", ".anime", function (event) {
+	$(document).on("click", ".game", function (event) {
 		if ($(event.target).is("img.star")) {
 			if (!$(event.target).attr("id")) {
 				$(event.target).prop({ id: "starred" });
@@ -102,7 +102,7 @@ function loadGames(data) {
 					pinnedarraynodes = [...pinnedarraynodes];
 					let $element = $("<div>")
 						.prop({
-							class: "anime",
+							class: "game",
 							id: pinnedarray[i].id,
 						})
 						.append(
@@ -144,12 +144,12 @@ function loadGames(data) {
 			redirectGame($(this).attr("id"));
 		}
 	});
-	$(document).on("click", "#anime img .star", function (event) {
+	$(document).on("click", "#game img .star", function (event) {
 		$(this).prop({ class: "material-symbols-outlined fill" });
 	});
 }
 
-function redirectAnime(dir) {
+function redirectGame(dir) {
 	window.location.href = window.location.origin + "/" + dir + "/index.html";
 }
 function dynamicSort(property) {
@@ -168,25 +168,25 @@ function dynamicSort(property) {
 	};
 }
 
-function selectRandomAnime() {
+function selectRandomGame() {
 	redirectGame(gamelist[Math.floor(Math.random() * gamelist.length - 1)].directory);
 }
 
 let viewrecommended = 0;
-function recommendedAnimes() {
+function recommendedGames() {
 	if (viewrecommended == 0) {
-		$("#animes .anime").hide();
-		$("#animes .anime").each(function () {
+		$("#games .game").hide();
+		$("#games .game").each(function () {
 			if ($(this).attr("recommended")) {
 				$(this).show();
 			}
 		});
-		$("#recommend").text("Click to view all animes again!");
+		$("#recommend").text("Click to view all games again!");
 		viewrecommended = 1;
 	} else {
-		$("#animes .anime").hide();
-		$("#animes .anime").show();
+		$("#games .game").hide();
+		$("#games .game").show();
 		viewrecommended = 0;
-		$("#recommend").text("Click to view recommended animes!");
+		$("#recommend").text("Click to view recommended games!");
 	}
 }
