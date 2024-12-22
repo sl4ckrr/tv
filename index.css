@@ -65,8 +65,8 @@ position: absolute;
 }
 
 #animes img{ 
-  width: 226px;
-  height:296px;
+  width: 220px;
+  height:330px;
   border-radius: 5%;
   border: 3px solid #fff;
   box-shadow: 0 10px 60px rbga(255, 26, 26 ,0.22);
