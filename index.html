@@ -1,83 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="sl-theme-dark" lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-  <link rel="icon" type="image/x-icon" href="Tv.ico">
-    <title>Sl4ckrr.tv</title>
-    <script src="https://kit.fontawesome.com/c425e24a8.js" crossorigin="anonymous"></script>
-</head>
-<body>    
-  <div class="container">
-  <div class="video-player">
-    <nav>
-    <div class="search">
-        <input type="text" placeholder="Search..." oninput="">
-    </div>
-    <div class="content">
-    </div>
-   </div>  
-      <div class="circle">
-      </div>
-    </nav>
+    <!-- initialize theme vars
+    https://coolors.co/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff -->
+
+    <!-- initialize externals -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
     
-
-<hr>
-
-    <div id="animes">
-      
-    <a href=""><img src="img src/mp100.jpeg" class="anime-img" alt="mob psycho 100"></a>
-    <a href=""><img src="img src/dn.jpeg" class="anime-img" alt="death note"></a>
-    <a href=""><img src="img src/evangelion.jpeg" class="anime-img" alt="evangelion"></a>
-    <a href=""><img src="img src/dandadan3.jpeg" class="anime-img" alt="dandadan"></a>
-    <a href=""><img src="img src/hxh.jpeg" class="anime-img" alt="hunter x hunter"></a>
-      
-    <a href=""><img src="img src/mp100-2.jpeg" class="anime-img" alt="mob psycho 100 II"></a>
-    <a href=""><img src="img src/gold.jpeg" class="anime-img" alt="One Piece Film Gold"></a>
-    <a href=""><img src="img src/tachap3.jpeg" class="anime-img" alt="This artclub has a problem!"></a>
-    <a href=""><img src="img src/red.jpeg" class="anime-img" alt="One Piece Film Red"></a>
-    <a href=""><img src="img src/stampede.jpeg" class="anime-img" alt="One Piece Stampede"></a>  
-      
-    <a href=""><img src="img src/mp100-3.jpeg" class="anime-img" alt="a"></a>
-    <a href=""><img src="img src/demonslayer.jpeg" class="anime-img" alt="b"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="c"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="d"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="e"></a>    
-      
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="a"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="b"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="c"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="d"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="e"></a>
-
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="a"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="b"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="c"></a>
-    <a href=""><img src="img src/i.jpeg" class="anime-img" alt="d"></a>
-
-
-
-        <!-- MORE ANIME IF NEEDED!-->
-
-    <center>
-    <h>INFO!</h>
-    <p>sl4ckrr.tv a very good trustable website,why? because i said so! anyway no ads. all good animes(opinion) and everything is all
-    made by one dev, ME! i also make unblocked games and will be working on a new project! a music streaming platform. idk if its okay to upload music
-    but then again IMA BE KING OF THE PIRATES! byebye:)</p>
-       <p>
-  <a href="">request?</a>
-  <a href="">report a problem!</a>
- </p>
-    </center>
-     </div>  
-  </div>
-   </div>  
-  </div>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/themes/dark.css" />
+     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
   
-    </div>
-    </div>
-</body>
-</html>
 
-<script src="main.js"></script>
+    <!-- initialize my stuff -->
+    <script src="/js/all.js"></script>
+    <script src="/js/main.js"></script>
+<script src="/js/themes.js"></script>
+    <script src="/js/randomquote.js"></script>
+    <link rel="stylesheet" href="/themes.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+
+
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+      new Crate({
+          server: '1148719137238040606', // sl4ckrr.tv
+          channel: '1173731814196645909' // #commands
+      })
+    </script>
+
+
+    <!-- seo + other things -->
+    <title>Selenite</title>
+    <link rel="icon" href="/Tv.ico" />
+    <meta
+      name="keywords"
+      content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git, gaming, internet, website, best, site, cool, free games"
+    />
+
+  </head>
+  <alerts>
+    <sl-dialog label="Welcome to Selenite!" class="dialog-width" style="--width: 60vw;display:none;">
+      welcome to sl4ckrr.tv You will be able to play over 90 high quality animes, and we have many tools to make your experience better.
+      <br>
+      Wanting to transfer your data from another website? Try the transfer utility in the footer!
+      <br>
+      Want to support the development of Sl4ckrr? Join the <a href="">Discord</a> and support me on <a href="">instagram</a>!
+      <br>
+      Learn more about Sl4ckr.tv at the about page in the header!
+      <br>
+      Try out the Minified bookmarklet in the bookmarklets page!
+      <br>
+      Have a great day!
+      <sl-button slot="footer" variant="neutral">Close</sl-button>
+    </sl-dialog>
+  </alerts>
+  <body id="noscroll">
+    <header>
+      <a href="/index.html">Home</a>
+      <a href="/bookmarklets.html">Bookmarklets</a>
+      <a href="/projects.html">Animes</a>
+      <a href="/settings.html">Settings</a>
+      <a href="/support.html">Support</a>
+      <a id="blank" href="#">Open Blank</a>
+      <a href="/about.html">About</a>
+    </header>
+    <main id="main" class="noscroll">
+      <h1>selenite.</h1>
+      <p id="randomquote">...</p>
+      <div class="samerow">
+        <div class="img-container">
+          <a href="https://patreon.com/selenitecc"><img src="img/Digital-Patreon-Logo_White.png"></a>
+        </div>
+        <div class="img-container">
+          <a href="projects.html"><img src="img/baseline_sports_esports_white_48dp.png"></a>
+        </div>
+        <div class="img-container">
+          <a href="https://discord.gg/7jyufnwJNf"><img src="img/discord-mark-white.png"></a>
+        </div>
+      </div>
+      <div id="adcontainer">
+        <h3><a href="ad.html">AD (click to read more):</a></h3>
+        <script async="async" data-cfasync="false" src="//pl22225360.toprevenuegate.com/92108816b5da54426d1639bcbfb5785c/invoke.js"></script>
+        <div id="container-92108816b5da54426d1639bcbfb5785c"></div>
+      </div>
+    </main>
+    
+    <footer class="noscroll">
+      <a href="https://github.com/selenite-cc/Selenite">Source Code</a>
+      <a id="panicmode">Panic Mode</a>
+      <a href="/transfer.html">Transfer your data</a>
+      <a href="/suggest.html">Bug Reports</a>
+      <a href="">Discord</a>
+      <a href="/suggest.html">Suggestions</a>
+      <a href="/contact.html">Contact</a>
+    </footer>
+    
+  </body>
+</html>
