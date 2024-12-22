@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .container{
-  width:100vw;
+  width:100%;
   height:100%;
   background: #ffe0e5;
   display: flex;
@@ -114,11 +114,12 @@ nav .img{
 .video-player{
   font-size: 20px;
   font-weight: 400;
-  color: #ffe0e5;
 }
 .video-player p{
   font-size: 14px;
-  color: #ffe0e5;
+}
+.video-player h{
+  font-size: 18px;
 }
 a{
   font-weight:500;
