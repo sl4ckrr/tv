@@ -63,7 +63,7 @@ position: absolute;
 
 }
 
-#animes img{ 
+#animes-img{ 
   width: 220px;
   height:315px;
   border-radius: 5%;
@@ -74,7 +74,7 @@ position: absolute;
   transition: transform .2s;
 }
 
-#animes img:hover{
+#animes-img:hover{
     transform: scale(1.01);
 }
 .video-player{
@@ -108,7 +108,7 @@ nav .img{
   border: 8px solid #fff;
   box-shadow: 0 10px 60px rbga(255, 26, 26 ,0.22);
 }
-#animes img:hover {
+#animes-img:hover {
     transform: scale(1.01);
 }
 .video-player{
