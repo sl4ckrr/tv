@@ -130,3 +130,6 @@ hr{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
     margin: 1vw 0;
 }
+center{
+  margin-bottom:80px;
+}
